@@ -1,4 +1,8 @@
 ### Gene-Disease-Realtionship
+**Prerequisite:**
+Install BioBert
+
+**Methodolgy:**
 The preprocessing of a pubmed central full text document (PMCID: PMC2837563)
 which includes the tagging of gene and disease entities using the PubTator Central API, followed by the splitting of the segments into sentences, masking of gene and disease terms in those sentences with "@Gene"  and "@Disease" respectively. 
 There is a unique index assigned to each sentence and the preprocessed and original sentences are stored in separate files with their respective indices. 
